@@ -113,7 +113,7 @@ section{
 .hero__section{
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(hsla(0, 3%, 75%, 0.565), hsla(0, 3%, 75%, 0.565) ),url('./assets/images/hero-bg.jpg');
+    background-image: linear-gradient(hsla(0, 3%, 75%, 0.565), hsla(0, 3%, 75%, 0.565) ),url('../images/hero-bg.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
