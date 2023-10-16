@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMX</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav__logo">
+            <img src="/assets/images/logo.png" alt="" srcset="">
+        </div>
+        <nav>
+            <a class="nav__link" href="/">Home</a>
+            <a class="nav__link" href="/store.html">Store</a>
+            <a class="nav__link" href="/merch.html">Merch</a>
+            <a class="nav__link" href="/build.html">Build</a>
+            <button id="cart-btn" class="btn btn-primary"><i class="fas fa-cart-shopping"></i></button>
+        </nav>
+    <div class="nav__icon">
+        <span id="cart-btn2" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></span>
+        <span><i class="fa fa-bars" id="menu"></i></span>
+    </div>
+    </header>
+    <div class="cart__container">
+        <div class="cart__header">
+            <h2>Cart</h2>
+            <button class="btn btn-close" id="cart-close"></button>
+        </div>
+        <div class="cart__content">
+        <div class="cart__product">
+            <div class="cart__img">
+                <img src="/assets/images/shirt.webp" alt="">
+            </div>
+            <div class="cart__detail">
+            <h6>Rad BMX Builds T-Shirt</h6>
+            <div class="input__qty">
+                <button id="sub">-</button>
+                <input type="text" value="1">
+                <button id="add">+</button>
+            </div>
+            </div>
+            <div class="cart__price">
+              <h5>$38.56</h5>
+            </div>
+        </div>
+        <div class="cart__product">
+            <div class="cart__img">
+                <img src="/assets/images/brown-cap.jpg" alt="">
+            </div>
+            <div class="cart__detail">
+            <h6>Rad BMX Builds T-Shirt</h6>
+            <div class="input__qty">
+                <button id="sub">-</button>
+                <input type="text" value="1">
+                <button id="add">+</button>
+            </div>
+            </div>
+            <div class="cart__price">
+              <h5>$38.56</h5>
+            </div>
+        </div>
+
+        <div class="cart__footer">
+          <div class="sub__total">
+            <h6>SubTotal</h6>
+            <h5>$77.12</h5>
+          </div>
+          <p class="cart__footer__text">Shipping and discount codes are added at checkout.</p>
+          <button class="btn btn-dark">Checkout</button>
+        </div>
+        </div>
+    </div>
+    <section class="merch__section">
+        <div class="container py_l">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div class="img_bg">
+                        <div class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div  class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div class="img_bg">
+                        <div class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div class="img_bg">
+                        <div class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div class="img_bg">
+                        <div class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div class="img_bg">
+                        <div class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div  class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div class="img_bg">
+                        <div class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div class="img_bg">
+                        <div class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content__card">
+                        <div class="img_bg">
+                        <div class="blurred__img">
+                        <img id="img" src="/assets/images/cap.jpg" loading="lazy" alt="">
+                    </div>
+                    </div>
+                        <h2>Modern Bicycle</h2>
+                        <h3>$30.00</h3>
+                        <button class="btn btn-dark rounded-0 py-3" id="product-btn">View Product</button>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__links">
+            <div class="footer__section">
+                <h2 class="extra">About us</h2>
+                <p>Veteran owned company. We build custom BMX bikes for Instagram and YouTube.<br><br>
+    
+                    For collaborations or promotional builds contact: sean@radbmxbuilds.com
+                    </p>
+                    <img src="/assets/images/logo.png" alt="">
+            </div>
+            <div class="footer__section">
+                <h2>Pages</h2>
+                <div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Merch</a></li>
+                    <li><a href="">Store</a></li>
+                    <li><a href="">Builds</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="footer__section">
+                <h2>Follow Us</h2>
+                <div>
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook"></i><h3>Facebook</h3></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i><h3>Instagram</h3></a></li>
+                    <li><a href=""><i class="fab fa-youtube"></i><h3>Youtube</h3></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer__text">
+            <a href="">sean@radbmxbuilds.com</a>
+            <p>© 2023 RAD BMX BUILDS</p>
+        </div>
+    </footer>
+
+        <!-- Product Details Modal -->
+<div class="modal fade bd-example-modal-lg" id="product-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="myLargeModalLabel">Product Details</h4>
+            <button type="button" id="productmodal-close" class="close btn btn-close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
+     <div class="modal-body">
+        <div class="info">
+             <div class="info__img">
+              <img src="/assets/images/store-zoo.jfif" alt="">
+             </div>
+             <div class="info__details">
+               <h4>Rad BMX Builds Bicycle</h4>
+               <h3>$31.25</h3>
+               <div class="input__group">
+               <label for="size">Size</label>
+               <select name="size" id="size">
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">2Xl</option>
+                <option value="">3XL</option>
+                <option value="">4Xl</option>
+               </select>
+               </div>
+               <div class="input__group">
+                <label for="size">Color</label>
+                <select name="size" id="size">
+                 <option value="">White</option>
+                 <option value="">Black</option>
+                </select>
+                </div>
+                <div class="cart__group">
+                    <input type="text" value="1">
+                    <button class="cart__btn">Add To Cart</button>
+                </div>
+                <h6><b>PRODUCT DETAILS:</b></h6>
+                <ul>
+                    <li>Multicam is 98/2 cotton/spandex</li>
+                    <li>Multicam is 98/2 cotton/spandex</li>
+                    <li>Multicam is 98/2 cotton/spandex</li>
+                    <li>Multicam is 98/2 cotton/spandex</li>
+                    <li>Multicam is 98/2 cotton/spandex</li>
+                    <li>Multicam is 98/2 cotton/spandex</li>
+                    <li>Multicam is 98/2 cotton/spandex</li>
+                </ul>
+                <h6><b>Washing Instruction</b></h6>
+                <ul>
+                    <li>Wash inside out with like colors. Do not bleach, tumble dry low, do not iron.</li>
+                </ul>
+                <h6><b>Shipping Info:</b></h6>
+                <ul>
+                    <li>Ships in 5 business days but may vary. Extended shipping during peak seasons.</li>
+                    <li>Worldwide shipping available but some areas restricted by USPS due to covid.</li>
+                    <li>Tracking info will be emailed to you once the product has shipped.</li>
+                </ul>
+                <h6><b>Additional Info:</b></h6>
+                <p>All international customers are responsible for any custom/VAT fees that occur when the product arrives to your country</p>
+             </div>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="/assets/js/script.js"></script>
+    </body>
+    </html>
